@@ -45,4 +45,6 @@ jQuery(document).ready(function ($) {
       $(this).parent('.accordion-item').toggleClass("is-active").children(".accordion-panel").slideToggle("ease-out");
     })
   });
+
+  $('.select-block select').niceSelect();
 });
