@@ -1,0 +1,1 @@
+<a href="<?php if($item['link']) echo $item['link']['url'] ?>"<?php if(!$item['link'] || $item['link']['url'] == '#') echo ' class="no-link"' ?><?php if($item['link'] && $item['link']['target']) echo ' target="_blank"' ?>>
