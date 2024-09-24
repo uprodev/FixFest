@@ -1401,11 +1401,18 @@ input[type=number] {
       }
       &:after{
         position: absolute;
-        top: 3px;
+        top: -3px;
         left: 2px;
         content: url("../img/check.svg");
       }
     }
   }
+}
+
+.nice-select .list{
+  width: 100%;
+}
+.nice-select .list .disabled{
+  display: none;
 }
 /*--------------------------END-LADING-PAGE---------------------------*/
